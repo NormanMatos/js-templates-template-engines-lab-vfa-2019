@@ -29,7 +29,7 @@ function createPost(){
     blogPost: postTemplateHTML
   })
 
-  let mainDoc = document.getElementsByTagName('main');
+  let mainDoc = document.getElementsByTagName('main')[0];
   mainDoc.innerHTML += pageTemplateHTML;
 
 }
